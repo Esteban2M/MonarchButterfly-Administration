@@ -1,0 +1,45 @@
+/*** Add your styles here **/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.fuente-barra h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 252, 249);
+}
+
+.fondo-nav {
+    background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    color: rgb(251, 98, 42);
+    background-color: #000000;
+}
+
+.mt-7 {
+    margin-top: 70px;
+}
+
+table th {
+    text-align: center;
+}
+
+.derecha {
+    display: flex;
+    justify-content: flex-end;
+}
